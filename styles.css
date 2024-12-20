@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.quiz-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+.quiz-header h2 {
+    margin-bottom: 20px;
+}
+
+.quiz-header ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.quiz-header ul li {
+    margin-bottom: 10px;
+}
+
+.quiz-header ul li label {
+    margin-left: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Kontainer utama */
+#quiz {
+    width: 60%;
+    margin: 20px auto;
+    margin-top: 100px;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hasil */
+#result {
+    margin-top: 20px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Judul Hasil */
+#result h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Tombol */
+button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Error dan Jawaban Benar */
+#errors, #correct-answers {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f7f7f7;
+}
+
+/* Soal */
+#errors p, #correct-answers p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Jawaban salah */
+#errors .wrong {
+    color: red;
+    font-weight: bold;
+}
+
+/* Jawaban benar */
+#errors .correct {
+    color: green;
+    font-weight: bold;
+}
+
