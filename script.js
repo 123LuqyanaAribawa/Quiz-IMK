@@ -348,7 +348,7 @@ let quizDataOriginal = [
         correct: "b",
     },
     {
-        question: "Tujuan-tujuan dalam Agent adalah",
+        question: "Tujuan-tujuan tertentu dapat dicapai dengan cara-cara berbeda adalah tipe AGENT",
         a: "Utility-based",
         b: "Awarness Periferal",
         c: "Goal-based",
